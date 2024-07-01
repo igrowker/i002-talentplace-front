@@ -1,0 +1,25 @@
+.button{
+    padding: 12px 0;
+    width: 160px;
+    background-color: var(--main-color-blue);
+    border: none;
+    border-radius: 5px;
+    color:white;
+    font-size: 18px;
+    font: var(--font-family-sans-serif);
+    line-height: 28px;
+}
+
+.button.primary{
+    background-color: var(--main-color-purple);
+}
+.button.secondary{
+    background:none;
+    border: 1px solid #08131F;
+    color: #08131F;
+}
+.button.white{
+    background-color: white;
+    color:#08131F;
+    border: none;
+}

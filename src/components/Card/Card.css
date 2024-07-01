@@ -1,0 +1,15 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    background-color: white;
+}
+
+.card-img{
+    width: 47.52px;
+    height: 50px;
+    border: 1.5px solid white;
+}
