@@ -1,0 +1,79 @@
+/* Global Styles */
+
+/**************************************/
+/* NO ESTA TERMINADO... VER CON UX/UI */
+/**************************************/
+
+:root {
+    /* background */
+    --bg-color: background-image: linear-gradient(
+        180deg,
+        hsl(0deg 0% 100%) 0%,
+        hsl(256deg 100% 98%) 21%,
+        hsl(255deg 100% 97%) 30%,
+        hsl(255deg 100% 95%) 39%,
+        hsl(254deg 100% 94%) 46%,
+        hsl(254deg 100% 92%) 54%,
+        hsl(253deg 100% 91%) 61%,
+        hsl(253deg 100% 89%) 69%,
+        hsl(253deg 100% 88%) 79%,
+        hsl(252deg 100% 86%) 100%
+    );
+
+     /* colors */
+    --main-color-purple: #8c52ff;
+    --main-color-blue: #38b6ff;
+    --main-color-light-grey: #E8E2E2;
+    --main-color-black: #08121F;
+    
+    /* font */
+    --font-family-sans-serif: "Lato";
+
+    --font-weight-regular: 400; 
+    --font-weight-bold: 700;
+
+    /* font size */
+    --font-size-headline-1: 62px;
+    --font-size-headline-2: 48px;
+    --font-size-headline-3: 34px;
+
+    --font-size-subt: 28px;
+
+    --font-size-body-1: 18px;
+    --font-size-body-2: 16px;
+
+    /* font size responsive */
+    --font-size-res-headline-1: 72px;
+    --font-size-res-headline-2: 58px;
+    --font-size-res-headline-3: 42px;
+
+    --font-size-res-subt: 32x;
+
+    --font-size-res-body-1: 28px;
+    --font-size-res-body-2: 24px;
+
+    /* regular:
+    font-family: "Lato", sans-serif;   
+    font-weight: 400;  
+    font-style: normal; 
+
+    bold:
+    font-family: "Lato", sans-serif;   
+    font-weight: 700;  
+    font-style: normal;  */
+
+    /* spacing*/
+    --space-padding-s: 8px;
+    --space-padding-m: 16px;
+    --space-padding-l: 24px;
+    --space-padding-xl: 32px;
+
+    --space-margin-s: 8px;
+    --space-margin-m: 16px;
+    --space-margin-l: 24px;
+    --space-margin-xl: 32px;
+}
+
+html, body{
+    font-family: var(--font-family-sans-serif);
+}
