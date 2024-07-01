@@ -73,3 +73,7 @@
     --space-margin-l: 24px;
     --space-margin-xl: 32px;
 }
+
+html, body{
+    font-family: var(--font-family-sans-serif);
+}
