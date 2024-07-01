@@ -25,7 +25,14 @@
     --main-color-blue: #38b6ff;
     --main-color-light-grey: #E8E2E2;
     --main-color-black: #08121F;
-    
+
+    --color-white: #ffffff;
+    --color-black: #000000;
+
+    --secondary-color-error: #DC2626;
+    --secondary-color-success: #16A34A;
+    --secondary-color-label: #4B5563;
+
     /* font */
     --font-family-sans-serif: "Lato";
 
