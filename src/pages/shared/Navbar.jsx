@@ -12,6 +12,7 @@ export const Navbar = () => {
             height="30px"
           />
         </Link>
+
         <button
           className="navbar-toggler"
           type="button"
@@ -29,37 +30,40 @@ export const Navbar = () => {
               className={({ isActive }) =>
                 `nav-item nav-link ${isActive ? "active" : ""}`
               }
-              to="/about"
+              to="/contratar"
             >
-              About Us
+              Contratar
             </NavLink>
 
             <NavLink
               className={({ isActive }) =>
                 `nav-item nav-link ${isActive ? "active" : ""}`
               }
-              to="/privacy"
+              to="/oportunidades"
             >
-              Privacy Policy
+              Oportunidades
             </NavLink>
             <NavLink
               className={({ isActive }) =>
                 `nav-item nav-link ${isActive ? "active" : ""}`
               }
-              to="/login"
+              to="/contact"
             >
-              Login
+              Contactanos
             </NavLink>
             <NavLink
               className={({ isActive }) =>
                 `nav-item nav-link ${isActive ? "active" : ""}`
               }
-              to="/register"
+              to="/about"
             >
-              Register
+              Nosotros
             </NavLink>
           </div>
         </div>
+        
+        <a href="/login" class="btn btn-primary" role="button" aria-disabled="true">Ingresar</a>
+        
       </div>
     </nav>
   );
