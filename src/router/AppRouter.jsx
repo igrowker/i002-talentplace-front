@@ -23,7 +23,6 @@ export const AppRouter = () => {
           {/* <Route path="public-project" element={<PublicProject />} /> */}
         </Route>
 
-        {/* <Route path="/contratar" element={<PaginaEnConstruccion />} /> */}
         <Route path="/nosotros" element={<PaginaEnConstruccion />} />
         <Route path="/contacto" element={<PaginaEnConstruccion />} />
         <Route path="/paginaenconstruccion" element={<PaginaEnConstruccion />} />
