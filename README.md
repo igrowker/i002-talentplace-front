@@ -5,15 +5,18 @@
 # Introducción:
 
 **Descripción General:** 
+
 TalentPlace es una plataforma diseñada para conectar freelancers y empleadores a nivel global, con un enfoque especial en brindar oportunidades reales y significativas a profesionales junior en la industria tecnológica. La plataforma facilita la contratación y gestión de proyectos, ofreciendo un entorno seguro y confiable para todas las partes involucradas..
 
-**Problema que se intenta resolver**
+**Problema que se intenta resolver:**
+
 Las empresas a menudo enfrentan dificultades para encontrar y contratar desarrolladores
 junior cualificados para proyectos freelance. Paralelamente, los desarrolladores junior
 encuentran obstáculos para acceder a oportunidades laborales que les permitan ganar
 experiencia y demostrar sus habilidades.
 
-**Solución Propuesta**
+**Solución Propuesta:**
+
 TalentPlace ofrece una plataforma integrada que simplifica el proceso de conexión entre
 empresas y desarrolladores junior. Mediante una interfaz intuitiva y un sistema seguro de
 gestión de proyectos y pagos, TalentPlace facilita la colaboración efectiva y el crecimiento
