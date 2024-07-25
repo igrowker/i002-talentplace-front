@@ -2,7 +2,7 @@
 ![WhatsApp Image 2024-03-06 at 21 48 31](/src/assets/assets-img/portada.jpg)
 
 
-# Introducción: ![WhatsApp Image 2024-03-06 at 21 48 31](/src/assets/assets-png/2.png)
+# Introducción:
 
 **Descripción General:** 
 
