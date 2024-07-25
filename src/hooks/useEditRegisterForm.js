@@ -144,6 +144,7 @@ const useEditRegisterForm = () => {
 
             } finally {
                 setIsSubmitting(false);
+                setLoading(false)
             }
         }
     };
