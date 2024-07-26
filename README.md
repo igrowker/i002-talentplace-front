@@ -9,18 +9,11 @@
 TalentPlace es una plataforma diseñada para conectar freelancers y empleadores a nivel global, con un enfoque especial en brindar oportunidades reales y significativas a profesionales junior en la industria tecnológica. La plataforma facilita la contratación y gestión de proyectos, ofreciendo un entorno seguro y confiable para todas las partes involucradas..
 
 **Problema que se intenta resolver:**
-
-Las empresas a menudo enfrentan dificultades para encontrar y contratar desarrolladores
-junior cualificados para proyectos freelance. Paralelamente, los desarrolladores junior
-encuentran obstáculos para acceder a oportunidades laborales que les permitan ganar
-experiencia y demostrar sus habilidades.
+Las empresas a menudo enfrentan dificultades para encontrar y contratar desarrolladores junior cualificados para proyectos freelance. Paralelamente, los desarrolladores junior encuentran obstáculos para acceder a oportunidades laborales que les permitan ganar experiencia y demostrar sus habilidades.
 
 **Solución Propuesta:**
 
-TalentPlace ofrece una plataforma integrada que simplifica el proceso de conexión entre
-empresas y desarrolladores junior. Mediante una interfaz intuitiva y un sistema seguro de
-gestión de proyectos y pagos, TalentPlace facilita la colaboración efectiva y el crecimiento
-profesional de los desarrolladores junior.
+TalentPlace ofrece una plataforma integrada que simplifica el proceso de conexión entre empresas y desarrolladores junior. Mediante una interfaz intuitiva y un sistema seguro de gestión de proyectos y pagos, TalentPlace facilita la colaboración efectiva y el crecimiento profesional de los desarrolladores junior.
 
 
 ## Características principales
@@ -37,9 +30,6 @@ la confianza y la calidad del trabajo.
 * Responsive design: La plataforma está optimizada para su uso en diferentes
 dispositivos y resoluciones de pantalla.
 
-<!-- 
-## Ventajas de Talent Place
-<br> -->
 
 ## Demo
 https://talent-place.netlify.app/
@@ -51,23 +41,23 @@ https://talent-place.netlify.app/
 **1. Funcionalidades y Componentes Implementados:**
 
 - **Autenticación y Sesiones:**
-  - Se ha implementado un sistema de autenticación que permite a los usuarios registrarse, iniciar sesión y cerrar sesión. La lógica de autenticación se maneja a través de un contexto de usuario (`UserProvider`) y hooks personalizados.
+  - Se ha implementado un sistema de autenticación que permite a los usuarios registrarse, iniciar sesión y cerrar sesión. La lógica de autenticación se maneja a través de un contexto de usuario y hooks personalizados.
 
 - **Navegación y UI:**
-  - El proyecto incluye una barra de navegación (`Navbar`) que utiliza un diseño responsivo con un menú hamburguesa animado. Se ha implementado la funcionalidad de mostrar y ocultar el menú en dispositivos móviles utilizando solo CSS.
+  - El proyecto incluye una barra de navegación que utiliza un diseño responsivo con un menú hamburguesa animado. Se ha implementado la funcionalidad de mostrar y ocultar el menú en dispositivos móviles utilizando solo CSS.
   - Se han creado componentes reutilizables para la presentación de proyectos y acciones del usuario.
 
 - **Búsqueda y Filtros:**
-  - La sección de oportunidades (`Opportunities`) incluye un sistema de búsqueda y filtrado de proyectos, permitiendo a los usuarios buscar proyectos específicos por título. La lógica de filtrado se maneja con un hook de estado y se actualiza dinámicamente según la entrada del usuario.
+  - La sección de oportunidades incluye un sistema de búsqueda y filtrado de proyectos, permitiendo a los usuarios buscar proyectos específicos por título. La lógica de filtrado se maneja con un hook de estado y se actualiza dinámicamente según la entrada del usuario.
 
 - **Publicación y Postulación de Proyectos:**
   - Los perfiles de empresa pueden publicar y editar proyectos detallados en la plataforma, especificando requisitos, presupuestos y otros detalles relevantes. Los perfiles de freelancers pueden buscar estos proyectos y postularse, facilitando la conexión entre talentos y oportunidades laborales.
 
 - **Perfiles editables:**
-  - Los perfiles de empresa y freelancer pueden ser editados y actualizados en cualquier momento asegurando una mejor dinámica y conexión entre los perfiles.
+  - Los perfiles de empresa y freelancer pueden ser editados y actualizados en cualquier momento asegurando una mejor dinámica y conexión entre ambas partes.
 
 - **Carga y Estado:**
-  - Un componente de carga (`Loading`) muestra una animación de carga mientras los datos están siendo recuperados del backend.
+  - Un componente de carga muestra una animación de carga mientras los datos están siendo recuperados del backend.
 
 **2. Estado de Desarrollo y Consideraciones:**
 
@@ -118,6 +108,7 @@ El proyecto TalentPlace está en una fase avanzada de desarrollo, con las funcio
 
 ### Repositorio de BackEnd:
 
+En el enlace podes acceder a toda la información referente al Back.
 [Backend TP Github](https://github.com/igrowker/i002-talentplace-back).
 
 
@@ -157,7 +148,6 @@ El proyecto TalentPlace está en una fase avanzada de desarrollo, con las funcio
 | `Front End`       | Lucas Nahuel Nuñez     | [![GitHub]](https://github.com/LucaasN) [![linkedin]](https://www.linkedin.com/in/lucas-n-nunez/)                      |
 | `Front End`       | Joaquin Herrera  | [![GitHub]](https://github.com/JoaquinxHerrera) [![linkedin]](https://www.linkedin.com/in/joaquinherrera1/)                      |
 | `Back End`        | Gabriel Alejandro Leal Naranjo       | [![GitHub]](https://github.com/ParkerPiter) [![linkedin]](https://www.linkedin.com/in/gabriel-lea-n/)                             |
-| `Back End`        | Facundo Tiede      | [![GitHub]](https://github.com/iamtiedev) [![linkedin]](https://www.linkedin.com/in/iamtiedev/)                             |
 | `Full Stack`  | Javier Rodriguez       | [![Github]](https://github.com/XabierGallardo) [![linkedin]](https://www.linkedin.com/in/javier-rodriguez-3267712b2/)           |
 | `Front End`  | Julieta Mamani       | [![Github]](https://github.com/julimamani) [![linkedin]](https://www.linkedin.com/in/julieta-agustina-mamani-perez-083295250/)           |
 | `QA`  | Mariano Sosa Alvarez       | [![Github]](https://github.com/Marianoafx22) [![linkedin]](https://www.linkedin.com/in/mariano-sosa-alvarez-a52440284/)           |
