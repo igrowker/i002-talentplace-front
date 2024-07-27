@@ -1,0 +1,32 @@
+.card-contact {
+    border: 1px solid #8C52FF;
+    border-radius: 15px;
+    height: 330px;
+    width: 376px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-card {
+    color: white;
+    background-color: #8C52FF;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 16px;
+    margin-bottom: 1rem;
+}
+
+.text-info-card {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}
+
+.bg-white{
+    background-color: white;
+}

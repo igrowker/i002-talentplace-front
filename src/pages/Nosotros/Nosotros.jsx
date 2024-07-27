@@ -98,12 +98,12 @@ export const Nosotros = () => {
                             </div>
                         </section>
                 </section>
-                <section>
+                <section className='pt-0 pb-5'>
                     <h3 className='my-4 pt-4'>Membresías en TalentPlace</h3>
                     <Accordion className='px-5 accordion'>
 
                         <Fade direction="left"  triggerOnce="true">
-                        <Accordion.Item eventKey="0">
+                        <Accordion.Item eventKey="0" className='mb-2'>
                             <Accordion.Header>Membresía Básica</Accordion.Header>
                             <Accordion.Body>
                                 <div className='text-start'>
@@ -130,7 +130,7 @@ export const Nosotros = () => {
                         </Fade>
 
                         <Fade delay="50" direction="left"  triggerOnce="true">
-                        <Accordion.Item eventKey="1">
+                        <Accordion.Item eventKey="1" className='mb-2'>
                             <Accordion.Header>Membresía Premium</Accordion.Header>
                             <Accordion.Body>
                                 <div className='text-start'>
@@ -161,7 +161,7 @@ export const Nosotros = () => {
                         </Fade>
 
                         <Fade delay="100" direction="left"  triggerOnce="true">
-                        <Accordion.Item eventKey="2">
+                        <Accordion.Item eventKey="2" className='mb-2'>
                             <Accordion.Header>Membresía Pro</Accordion.Header>
                             <Accordion.Body>
                                 <div className='text-start'>
@@ -192,7 +192,7 @@ export const Nosotros = () => {
                         </Fade>
 
                         <Fade delay="150" direction="left"  triggerOnce="true">
-                        <Accordion.Item eventKey="3">
+                        <Accordion.Item eventKey="3" className='mb-2'>
                             <Accordion.Header>Membresía Corporativa</Accordion.Header>
                             <Accordion.Body>
                                 <div className='text-start'>
@@ -215,8 +215,50 @@ export const Nosotros = () => {
 
                     </Accordion>
                 </section>
-                <section>
-                    <h5 className='my-4 pt-4'></h5>
+                <section className='container-fluid container-mapa-del-sitio rounded position-relative'>
+                    <div className='bg-container-mapa-del-sitio'></div>
+                    <div className="row">
+                        <div className="col-xs-12">
+                            <h3 className='my-4 pt-4'>Mapa del sitio</h3>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-xs-12 col-lg-3">
+                            <p className="subtitle-mapa">Inicio/Home</p>
+                            <ul className="list-mapa">
+                                <li className="list-item-mapa">Categorias destacadas</li>
+                                <li className="list-item-mapa">Categorias</li>
+                            </ul>
+                        </div>
+                        <div className="col-xs-12 col-lg-3">
+                            <p className="subtitle-mapa">Nosotros</p>
+                            <ul className="list-mapa">
+                                <li className="list-item-mapa">TalentPlace</li>
+                                <li className="list-item-mapa">Historia</li>
+                                <li className="list-item-mapa">Objetivos</li>
+                                <li className="list-item-mapa">Cargos y Tarifas</li>
+                                <li className="list-item-mapa">Membresías</li>
+                            </ul>
+                        </div>
+                        <div className="col-xs-12 col-lg-3">
+                            <p className="subtitle-mapa">Contáctanos</p>
+                            <ul className="list-mapa">
+                                <li className="list-item-mapa">Aprende en TalentPlace</li>
+                                <li className="list-item-mapa ml-2">Aprende a Trabajar</li>
+                                <li className="list-item-mapa ml-2">Aprende a Contratar</li>
+                                <li className="list-item-mapa">Preguntas Frecuentes (FAQ)</li>
+                                <li className="list-item-mapa">Comunícate con Nosotros</li>
+                                <li className="list-item-mapa">Contacto</li>
+                            </ul>
+                        </div>
+                        <div className="col-xs-12 col-lg-3">
+                            <p className="subtitle-mapa">Oportunidades</p>
+                            <ul className="list-mapa">
+                                <li className="list-item-mapa">Explora proyectos publicados</li>
+                            </ul>
+                        </div>
+                    </div>
+                
                 </section>
             </main>
         </Fade>

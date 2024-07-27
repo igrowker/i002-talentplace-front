@@ -1,0 +1,43 @@
+.title-contacto {
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+h4.title-contacto {
+    font-size: 34px;
+}
+
+h5.title-contacto {
+    font-size: 28px;
+}
+
+.text-info-contacto {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.p-contacto, .label-contacto {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.p-contacto{
+    font-weight: 700; 
+}
+
+.label-contacto{
+    font-weight: 500;
+}
+
+.bg-gray{
+    background-color: #F6F4FF;
+}
+
+.text-left{
+    text-align: left !important;
+}

@@ -21,12 +21,52 @@
     padding-inline: 10%;
 }
 
-
 .nosotros-section3{
     background-color: white;
     margin-inline: -16px;
     padding-inline: 32px;
 }
+
+.container-mapa-del-sitio{
+    background-color: white;
+}
+
+.subtitle-mapa{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.list-mapa{
+    text-align: left;
+    padding-left: 3rem;
+}
+
+.list-item-mapa{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.ml-2{
+    margin-left: 2rem;
+}
+
+.bg-container-mapa-del-sitio {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/assets-png/7.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.1;
+}
+
 @media (width < 768px){
     .cardInfo-container{
         flex-direction: column;
@@ -41,6 +81,11 @@
     }
     .suitCaseFill, .userGraduate{
         margin: 10px;
+    }
+
+    .subtitle-mapa{
+        text-align: center;
+        margin-bottom: 1rem;
     }
 }
 @media (width <576px){
